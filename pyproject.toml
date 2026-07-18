@@ -1,0 +1,13 @@
+[project]
+name = "maf-codeact"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14.0"
+dependencies = [
+    "agent-framework-gemini>=1.0.0a260709",
+    "agent-framework-hyperlight>=1.0.0b260709",
+    "hyperlight-sandbox-backend-wasm>=0.5.0",
+    "mongomock>=4.3.0",
+    "python-dotenv>=1.2.2",
+]
